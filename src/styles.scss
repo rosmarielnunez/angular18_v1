@@ -1,4 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+// @use '@angular/material' as mat;
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// @include mat.core();
+
+// $primary-color: (
+//   500: #865D5D, 
+//   50: #f4e6e6, 
+//   100: #e3c4c4, 
+//   200: #d09e9e,
+//   300: #bc7878,
+//   400: #a95c5c,
+//   600: #7b4e4e,
+//   700: #6b3f3f,
+//   800: #5b3131,
+//   900: #4a2424,
+//   A100: #e8d4d4,
+//   A200: #c79f9f,
+//   A400: #a97171,
+//   A700: #7e4949,
+// );
+
+// $secondary-color: (
+//   500: #FFFFFF, 
+// );
+
+// $custom-typography: (
+//   font-family: 'Roboto, sans-serif',
+//   // headline1: mat.typography-level(96px, 1.5, 300),
+//   // headline2: mat.typography-level(60px, 1.5, 300),
+//   // headline3: mat.typography-level(48px, 1.4, 400),
+//   // headline4: mat.typography-level(34px, 1.25, 400),
+//   // headline5: mat.typography-level(24px, 1.2, 400),
+//   // headline6: mat.typography-level(20px, 1.2, 500),
+//   // body1: mat.typography-level(16px, 1.5, 400),
+//   // body2: mat.typography-level(14px, 1.5, 400),
+//   // button: mat.typography-level(14px, 1.75, 500),
+//   // caption: mat.typography-level(12px, 1.5, 400),
+//   // overline: mat.typography-level(10px, 1.5, 400)
+// );
+
+
+
+// $theme: mat.define-theme((     
+//   color: (
+//     primary: mat.$primary-color,
+//     accent: mat.$secondary-color,
+//   ),
+//   typography: $custom-typography,
+//   density: (
+//     scale: -1,
+//   )
+// ));
+
+
+
+//  html, body { 
+//     height: 100%;
+//     @include mat.all-component-themes($theme);
+//     @include mat.core($custom-typography);
+// }
+
+//  body { margin: 0; }
